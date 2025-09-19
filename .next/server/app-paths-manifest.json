@@ -1,0 +1,7 @@
+{
+  "/(root)/(routes)/page": "app/(root)/(routes)/page.js",
+  "/(auth)/(routes)/sign-in/[[...sign-in]]/page": "app/(auth)/(routes)/sign-in/[[...sign-in]]/page.js",
+  "/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/page": "app/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/page.js",
+  "/(dashboard)/[storeId]/(routes)/billboards/page": "app/(dashboard)/[storeId]/(routes)/billboards/page.js",
+  "/(dashboard)/[storeId]/(routes)/page": "app/(dashboard)/[storeId]/(routes)/page.js"
+}
