@@ -7,6 +7,7 @@ import { getTotalRevenue } from '@/actions/get-total-revenue'
 import { Overview } from '@/components/overview'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Heading } from '@/components/ui/heading'
+import AdminImageUpload from '@/components/admin-image-upload'
 import { Separator } from '@/components/ui/separator'
 import { formatter } from '@/lib/utils'
 
@@ -26,6 +27,8 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
       <div className="flex-1 space-y-4 p-8 pt-6">
         <Heading title="Dashboard" description="Welcome to your dashboard" />
         <Separator />
+    {/* Admin image upload control (visible on dashboard) */}
+    <AdminImageUpload />
 
         <div className="grid gap-4 grid-cols-3">
           <Card>
